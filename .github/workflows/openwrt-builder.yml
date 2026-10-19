@@ -39,7 +39,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        config_file: [TR3000V1_MOD.config, TR3000V1_256M.config, tr3000_256.config]
+        config_file: [tr3000_256.config]
 
     steps:
     - name: Checkout
